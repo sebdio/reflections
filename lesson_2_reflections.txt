@@ -1,3 +1,7 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: It creates an empty repository with nothing committed. To be able to create your own repository.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Staging area allows you to include only a specific set of files to a commit. The working directory has all of the different files that you may have. This allows you to commit changes to different files in sections that make logical sense to you. Being able to make changes to the staging area in case of a mistake allows you to not have to constantly mess with the repository which you want to keep a bit cleaner.
